@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_686062_apstra_he.GetBlueprints</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>GetBlueprints</name>
+        <script><![CDATA[var GetBlueprints = Class.create();
+GetBlueprints.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	getBlueprints: function() {
+		gs.info("Requesting login");
+		var login = new sn_ws.RESTMessageV2();
+		login.setEndpoint("https://10.192.0.11/api/aaa/login");
+		login.setHttpMethod("post");
+		login.setRequestBody('{"username": "admin", "password": "admin"}');
+		login.setMIDServer("mid");
+
+		var login_result = JSON.parse(login.execute().getBody());
+
+		gs.info("Requesting blueprints");
+		var req = new sn_ws.RESTMessageV2();
+		req.setEndpoint("https://10.192.0.11/api/blueprints");
+		req.setHttpMethod("get");
+		req.setRequestHeader("AuthToken", login_result.token);
+		req.setMIDServer("mid");
+
+		var result = req.execute().getBody();
+		
+		return(result);
+	},
+	
+	test: function() {
+		gs.info("Hi");
+		return("Hi");
+	},
+	type :'GetBlueprints'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-22 19:10:47</sys_created_on>
+        <sys_id>17889c4b2f0eb0104365532a2799b6fc</sys_id>
+        <sys_mod_count>22</sys_mod_count>
+        <sys_name>GetBlueprints</sys_name>
+        <sys_package display_value="Apstra Hello World" source="x_686062_apstra_he">922f3f5a2f4e30104365532a2799b66c</sys_package>
+        <sys_policy>protected</sys_policy>
+        <sys_scope display_value="Apstra Hello World">922f3f5a2f4e30104365532a2799b66c</sys_scope>
+        <sys_update_name>sys_script_include_17889c4b2f0eb0104365532a2799b6fc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-22 21:01:58</sys_updated_on>
+    </sys_script_include>
+</record_update>

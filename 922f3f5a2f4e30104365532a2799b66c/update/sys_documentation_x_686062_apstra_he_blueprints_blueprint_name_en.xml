@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="blueprint_name" label="Blueprint" language="en" table="x_686062_apstra_he_blueprints">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>blueprint_name</element>
+            <help/>
+            <hint/>
+            <label>Blueprint</label>
+            <language>en</language>
+            <name>x_686062_apstra_he_blueprints</name>
+            <plural>Blueprints</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-08-22 18:08:48</sys_created_on>
+            <sys_id>e95bc4cf2fcab0104365532a2799b618</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>Blueprint</sys_name>
+            <sys_package display_value="Apstra Hello World" source="x_686062_apstra_he">922f3f5a2f4e30104365532a2799b66c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Apstra Hello World">922f3f5a2f4e30104365532a2799b66c</sys_scope>
+            <sys_update_name>sys_documentation_x_686062_apstra_he_blueprints_blueprint_name_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-08-22 18:13:37</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

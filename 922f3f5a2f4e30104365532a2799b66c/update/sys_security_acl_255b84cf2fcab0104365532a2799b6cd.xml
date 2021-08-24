@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <condition/>
+        <description>Default access control on x_686062_apstra_he_blueprints</description>
+        <name>x_686062_apstra_he_blueprints</name>
+        <operation display_value="create">create</operation>
+        <script/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-22 18:08:47</sys_created_on>
+        <sys_id>255b84cf2fcab0104365532a2799b6cd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_686062_apstra_he_blueprints</sys_name>
+        <sys_package display_value="Apstra Hello World" source="x_686062_apstra_he">922f3f5a2f4e30104365532a2799b66c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Apstra Hello World">922f3f5a2f4e30104365532a2799b66c</sys_scope>
+        <sys_update_name>sys_security_acl_255b84cf2fcab0104365532a2799b6cd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-22 18:08:47</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+</record_update>
