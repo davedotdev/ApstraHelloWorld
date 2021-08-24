@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="ecc_agent_script_include">
+    <ecc_agent_script_include action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description/>
+        <name>SimpleAdd</name>
+        <script><![CDATA[var SimpleAdd = Class.create();
+    SimpleAdd.prototype = {
+  
+		initialize: function (n) {
+            ms.log('Creating new object');
+            this.number = (n - 0) || 0;
+        },
+    
+        increment: function () {
+            this.number++;
+            ms.log(this.number);
+            return this;
+        },
+        
+		type: 'SimpleAdd'
+};]]></script>
+        <sys_class_name>ecc_agent_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-23 23:53:05</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b623621f2fc63010731f877cf699b69a</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>SimpleAdd</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Apstra Hello World" source="x_686062_apstra_he">922f3f5a2f4e30104365532a2799b66c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Apstra Hello World">922f3f5a2f4e30104365532a2799b66c</sys_scope>
+        <sys_update_name>ecc_agent_script_include_b623621f2fc63010731f877cf699b69a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-24 08:21:43</sys_updated_on>
+    </ecc_agent_script_include>
+</record_update>

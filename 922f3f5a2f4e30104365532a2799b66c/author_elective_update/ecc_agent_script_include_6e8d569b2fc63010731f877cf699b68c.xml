@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="ecc_agent_script_include">
+    <ecc_agent_script_include action="DELETE">
+        <active>true</active>
+        <description/>
+        <name>Test_Include</name>
+        <script/>
+        <sys_class_name>ecc_agent_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-23 23:26:18</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>6e8d569b2fc63010731f877cf699b68c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Test_Include</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Apstra Hello World" source="x_686062_apstra_he">922f3f5a2f4e30104365532a2799b66c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Apstra Hello World">922f3f5a2f4e30104365532a2799b66c</sys_scope>
+        <sys_update_name>ecc_agent_script_include_6e8d569b2fc63010731f877cf699b68c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-23 23:26:18</sys_updated_on>
+    </ecc_agent_script_include>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Apstra Hello World">922f3f5a2f4e30104365532a2799b66c</application>
+        <file_path/>
+        <instance_id>90bd8556db46b3488aea21c405961904</instance_id>
+        <instance_name>dev87859</instance_name>
+        <name>ecc_agent_script_include_6e8d569b2fc63010731f877cf699b68c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="ecc_agent_script_include"><ecc_agent_script_include action="INSERT_OR_UPDATE"><active>true</active><description/><name>Test_Include</name><script/><sys_class_name>ecc_agent_script_include</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-08-23 23:26:18</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>6e8d569b2fc63010731f877cf699b68c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Test_Include</sys_name><sys_overrides/><sys_package display_value="Apstra Hello World" source="x_686062_apstra_he">922f3f5a2f4e30104365532a2799b66c</sys_package><sys_policy/><sys_scope display_value="Apstra Hello World">922f3f5a2f4e30104365532a2799b66c</sys_scope><sys_update_name>ecc_agent_script_include_6e8d569b2fc63010731f877cf699b68c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-08-23 23:26:18</sys_updated_on></ecc_agent_script_include></record_update>]]></payload>
+        <payload_hash>-301205589</payload_hash>
+        <record_name>Test_Include</record_name>
+        <reverted_from/>
+        <source>07e5c6df2f063010731f877cf699b612</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-23 23:26:18</sys_created_on>
+        <sys_id>1e9d969b2fc63010731f877cf699b649</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17b75560ba10000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-23 23:26:18</sys_updated_on>
+        <type>MID Server Script Include</type>
+        <update_guid>569d969bedc630100b9271ed92f00f49</update_guid>
+        <update_guid_history>569d969bedc630100b9271ed92f00f49:-301205589</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Test_Include">c20462df2fc63010731f877cf699b6bb</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-23 23:54:24</sys_created_on>
+        <sys_db_object display_value="" name="ecc_agent_script_include">ecc_agent_script_include</sys_db_object>
+        <sys_id>dc070b8dc42f4f19a796fb85096524c1</sys_id>
+        <sys_metadata>6e8d569b2fc63010731f877cf699b68c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Test_Include</sys_name>
+        <sys_package display_value="Apstra Hello World" source="x_686062_apstra_he">922f3f5a2f4e30104365532a2799b66c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Apstra Hello World">922f3f5a2f4e30104365532a2799b66c</sys_scope>
+        <sys_scope_delete display_value="">40d0b52728414f18a380a1cfdd936a10</sys_scope_delete>
+        <sys_update_name>ecc_agent_script_include_6e8d569b2fc63010731f877cf699b68c</sys_update_name>
+        <sys_update_version display_value="ecc_agent_script_include_6e8d569b2fc63010731f877cf699b68c">1e9d969b2fc63010731f877cf699b649</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-23 23:54:24</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

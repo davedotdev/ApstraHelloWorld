@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>false</active>
+        <api_name>x_686062_apstra_he.HelloWorld2</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>HelloWorld2</name>
+        <script><![CDATA[var HelloWorld2 = Class.create();
+HelloWorld2.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+   helloWorld:function() { return "Hello " + this.getParameter('sysparm_user_name') + "!"; } ,
+   _privateFunction: function() { // this function is not client callable     
+    }
+ });]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-24 08:50:21</sys_created_on>
+        <sys_id>199e942b2f4e3010731f877cf699b6af</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>HelloWorld2</sys_name>
+        <sys_package display_value="Apstra Hello World" source="x_686062_apstra_he">922f3f5a2f4e30104365532a2799b66c</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Apstra Hello World">922f3f5a2f4e30104365532a2799b66c</sys_scope>
+        <sys_update_name>sys_script_include_199e942b2f4e3010731f877cf699b6af</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-24 10:31:34</sys_updated_on>
+    </sys_script_include>
+</record_update>

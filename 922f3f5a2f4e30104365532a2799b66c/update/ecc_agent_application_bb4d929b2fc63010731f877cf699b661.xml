@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ecc_agent_application">
+    <ecc_agent_application action="INSERT_OR_UPDATE">
+        <default_mid_server display_value="dumpster">d3e8a1d32f823010731f877cf699b637</default_mid_server>
+        <included_in_app_all>true</included_in_app_all>
+        <name>Test</name>
+        <sys_class_name>ecc_agent_application</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-23 23:25:13</sys_created_on>
+        <sys_id>bb4d929b2fc63010731f877cf699b661</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Test</sys_name>
+        <sys_package display_value="Apstra Hello World" source="x_686062_apstra_he">922f3f5a2f4e30104365532a2799b66c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Apstra Hello World">922f3f5a2f4e30104365532a2799b66c</sys_scope>
+        <sys_update_name>ecc_agent_application_bb4d929b2fc63010731f877cf699b661</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-23 23:25:13</sys_updated_on>
+    </ecc_agent_application>
+</record_update>

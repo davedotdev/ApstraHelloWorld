@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>cost</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>HelloWorld</name>
+        <order/>
+        <script><![CDATA[function onSubmit() {
+    var ga = new GlideAjax('HelloWorld2');
+    ga.addParam('sysparm_name', 'helloWorld');
+    ga.addParam('sysparm_user_name', "Bob");
+    ga.getXML(HelloWorldParse);
+	
+    function HelloWorldParse(response) {
+        var answer = response.responseXML.documentElement.getAttribute("answer");
+        alert(answer); 
+	}
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-24 00:40:58</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c72ea2d72f0a3010731f877cf699b680</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>HelloWorld</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Apstra Hello World" source="x_686062_apstra_he">922f3f5a2f4e30104365532a2799b66c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Apstra Hello World">922f3f5a2f4e30104365532a2799b66c</sys_scope>
+        <sys_update_name>sys_script_client_c72ea2d72f0a3010731f877cf699b680</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-24 09:22:48</sys_updated_on>
+        <table>x_686806_test_0_collection_item</table>
+        <type>onSubmit</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>
